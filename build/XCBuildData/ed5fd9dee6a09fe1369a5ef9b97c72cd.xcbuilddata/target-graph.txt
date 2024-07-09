@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'Pods-myntra' in project 'Pods'
+➜ Explicit dependency on target 'ObjectMapper' in project 'Pods'
+Target 'ObjectMapper' in project 'Pods'
+➜ Explicit dependency on target 'ObjectMapper-Privacy' in project 'Pods'
+Target 'ObjectMapper-Privacy' in project 'Pods' (no dependencies)

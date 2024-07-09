@@ -1,0 +1,36 @@
+
+{
+  "id": "SHIRT001",
+  "name": "Men's Casual Shirt",
+  "brand": "FashionBrand",
+  "price": 39.99,
+  "currency": "USD",
+  "description": "A comfortable and stylish casual shirt for men.",
+  "category": "Clothing",
+  "tags": ["shirt", "men", "casual", "fashion"],
+  "availability": true,
+  "colors": [
+    {
+      "name": "Blue",
+      "hex_code": "#3498db"
+    },
+    {
+      "name": "White",
+      "hex_code": "#ffffff"
+    },
+    {
+      "name": "Black",
+      "hex_code": "#000000"
+    }
+  ],
+  "sizes": ["S", "M", "L", "XL", "XXL"],
+  "ratings": {
+    "average": 4.8,
+    "count": 85
+  },
+  "images": [
+    "https://example.com/images/shirt-blue-front.jpg",
+    "https://example.com/images/shirt-blue-back.jpg",
+    "https://example.com/images/shirt-blue-detail.jpg"
+  ]
+}

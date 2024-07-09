@@ -1,0 +1,5 @@
+ extern const unsigned char Pods_myntraVersionString[];
+ extern const double Pods_myntraVersionNumber;
+
+ const unsigned char Pods_myntraVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_myntra  PROJECT:Pods-1" "\n";
+ const double Pods_myntraVersionNumber __attribute__ ((used)) = (double)1.;

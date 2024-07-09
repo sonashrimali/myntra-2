@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35A66AFDA015DA630006B7AD /* Pods_myntra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF46C2DD29A9EF083DF37F7 /* Pods_myntra.framework */; };
+		C61ED1042C2D221A0082C403 /* CollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61ED1032C2D221A0082C403 /* CollectionViewCell2.xib */; };
+		C61ED1072C2D5E190082C403 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61ED1062C2D5E190082C403 /* CollectionViewCell2.swift */; };
+		C69137E42C194B2F009AE51A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69137E32C194B2F009AE51A /* AppDelegate.swift */; };
+		C69137E62C194B2F009AE51A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69137E52C194B2F009AE51A /* SceneDelegate.swift */; };
+		C69137E82C194B2F009AE51A /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69137E72C194B2F009AE51A /* Plist.swift */; };
+		C69137EB2C194B2F009AE51A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C69137EA2C194B2F009AE51A /* Base */; };
+		C69137ED2C194B32009AE51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69137EC2C194B32009AE51A /* Assets.xcassets */; };
+		C69137F02C194B32009AE51A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C69137EF2C194B32009AE51A /* Base */; };
+		C6A6D7152C2AAB3A009A6227 /* product_list_vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6D7142C2AAB3A009A6227 /* product_list_vc.swift */; };
+		C6A8B8A52C37E2DC006D0DE0 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A8B8A42C37E2DC006D0DE0 /* DetailPage.swift */; };
+		C6BD2DA42C33ABB3007804EB /* ProductList_CollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD2DA22C33ABB3007804EB /* ProductList_CollCell.swift */; };
+		C6BD2DA52C33ABB3007804EB /* ProductList_CollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BD2DA32C33ABB3007804EB /* ProductList_CollCell.xib */; };
+		C6C283722C3BCAC7001BD8E3 /* ObjectmapperlistJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C283712C3BCAC7001BD8E3 /* ObjectmapperlistJson.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FCAE8E6A651126D41B84747 /* Pods-myntra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myntra.debug.xcconfig"; path = "Target Support Files/Pods-myntra/Pods-myntra.debug.xcconfig"; sourceTree = "<group>"; };
+		5D70EFCE827197BAE616A1F7 /* Pods-myntra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myntra.release.xcconfig"; path = "Target Support Files/Pods-myntra/Pods-myntra.release.xcconfig"; sourceTree = "<group>"; };
+		7DF46C2DD29A9EF083DF37F7 /* Pods_myntra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myntra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61ED1032C2D221A0082C403 /* CollectionViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell2.xib; sourceTree = "<group>"; };
+		C61ED1062C2D5E190082C403 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		C69137E02C194B2F009AE51A /* myntra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myntra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69137E32C194B2F009AE51A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C69137E52C194B2F009AE51A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C69137E72C194B2F009AE51A /* Plist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		C69137EA2C194B2F009AE51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/product_list2.storyboard; sourceTree = "<group>"; };
+		C69137EC2C194B32009AE51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C69137EF2C194B32009AE51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C69137F12C194B32009AE51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A6D7142C2AAB3A009A6227 /* product_list_vc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product_list_vc.swift; sourceTree = "<group>"; };
+		C6A8B8A42C37E2DC006D0DE0 /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
+		C6BD2DA22C33ABB3007804EB /* ProductList_CollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList_CollCell.swift; sourceTree = "<group>"; };
+		C6BD2DA32C33ABB3007804EB /* ProductList_CollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductList_CollCell.xib; sourceTree = "<group>"; };
+		C6C283712C3BCAC7001BD8E3 /* ObjectmapperlistJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectmapperlistJson.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C69137DD2C194B2F009AE51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A66AFDA015DA630006B7AD /* Pods_myntra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417BC8522CD628D3E4002B6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF46C2DD29A9EF083DF37F7 /* Pods_myntra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6464B17A97A53509D988D6A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FCAE8E6A651126D41B84747 /* Pods-myntra.debug.xcconfig */,
+				5D70EFCE827197BAE616A1F7 /* Pods-myntra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C69137D72C194B2F009AE51A = {
+			isa = PBXGroup;
+			children = (
+				C69137E22C194B2F009AE51A /* myntra */,
+				C69137E12C194B2F009AE51A /* Products */,
+				6464B17A97A53509D988D6A7 /* Pods */,
+				417BC8522CD628D3E4002B6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C69137E12C194B2F009AE51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C69137E02C194B2F009AE51A /* myntra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C69137E22C194B2F009AE51A /* myntra */ = {
+			isa = PBXGroup;
+			children = (
+				C69137E32C194B2F009AE51A /* AppDelegate.swift */,
+				C69137E52C194B2F009AE51A /* SceneDelegate.swift */,
+				C6A8B8A42C37E2DC006D0DE0 /* DetailPage.swift */,
+				C69137E92C194B2F009AE51A /* product_list2.storyboard */,
+				C69137EC2C194B32009AE51A /* Assets.xcassets */,
+				C69137EE2C194B32009AE51A /* LaunchScreen.storyboard */,
+				C69137F12C194B32009AE51A /* Info.plist */,
+				C6A6D7142C2AAB3A009A6227 /* product_list_vc.swift */,
+				C61ED1032C2D221A0082C403 /* CollectionViewCell2.xib */,
+				C61ED1062C2D5E190082C403 /* CollectionViewCell2.swift */,
+				C69137E72C194B2F009AE51A /* Plist.swift */,
+				C6C283712C3BCAC7001BD8E3 /* ObjectmapperlistJson.swift */,
+				C6D1DD502C296E47005CBB8A /* Collectionviewcell */,
+			);
+			path = myntra;
+			sourceTree = "<group>";
+		};
+		C6D1DD502C296E47005CBB8A /* Collectionviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				C6BD2DA22C33ABB3007804EB /* ProductList_CollCell.swift */,
+				C6BD2DA32C33ABB3007804EB /* ProductList_CollCell.xib */,
+			);
+			path = Collectionviewcell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C69137DF2C194B2F009AE51A /* myntra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69137F42C194B32009AE51A /* Build configuration list for PBXNativeTarget "myntra" */;
+			buildPhases = (
+				AE43D1EAD9C3F2BDEDB031F0 /* [CP] Check Pods Manifest.lock */,
+				C69137DC2C194B2F009AE51A /* Sources */,
+				C69137DD2C194B2F009AE51A /* Frameworks */,
+				C69137DE2C194B2F009AE51A /* Resources */,
+				611B4AA8F8750673B8F2B6B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myntra;
+			productName = myntra;
+			productReference = C69137E02C194B2F009AE51A /* myntra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C69137D82C194B2F009AE51A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C69137DF2C194B2F009AE51A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C69137DB2C194B2F009AE51A /* Build configuration list for PBXProject "myntra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C69137D72C194B2F009AE51A;
+			productRefGroup = C69137E12C194B2F009AE51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C69137DF2C194B2F009AE51A /* myntra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C69137DE2C194B2F009AE51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69137ED2C194B32009AE51A /* Assets.xcassets in Resources */,
+				C61ED1042C2D221A0082C403 /* CollectionViewCell2.xib in Resources */,
+				C69137F02C194B32009AE51A /* Base in Resources */,
+				C69137EB2C194B2F009AE51A /* Base in Resources */,
+				C6BD2DA52C33ABB3007804EB /* ProductList_CollCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		611B4AA8F8750673B8F2B6B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myntra/Pods-myntra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myntra/Pods-myntra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myntra/Pods-myntra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE43D1EAD9C3F2BDEDB031F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myntra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C69137DC2C194B2F009AE51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A6D7152C2AAB3A009A6227 /* product_list_vc.swift in Sources */,
+				C69137E82C194B2F009AE51A /* Plist.swift in Sources */,
+				C61ED1072C2D5E190082C403 /* CollectionViewCell2.swift in Sources */,
+				C69137E42C194B2F009AE51A /* AppDelegate.swift in Sources */,
+				C6BD2DA42C33ABB3007804EB /* ProductList_CollCell.swift in Sources */,
+				C69137E62C194B2F009AE51A /* SceneDelegate.swift in Sources */,
+				C6A8B8A52C37E2DC006D0DE0 /* DetailPage.swift in Sources */,
+				C6C283722C3BCAC7001BD8E3 /* ObjectmapperlistJson.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C69137E92C194B2F009AE51A /* product_list2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C69137EA2C194B2F009AE51A /* Base */,
+			);
+			name = product_list2.storyboard;
+			sourceTree = "<group>";
+		};
+		C69137EE2C194B32009AE51A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C69137EF2C194B32009AE51A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C69137F22C194B32009AE51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C69137F32C194B32009AE51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C69137F52C194B32009AE51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCAE8E6A651126D41B84747 /* Pods-myntra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myntra/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = product_list2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myntra.Myntra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C69137F62C194B32009AE51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D70EFCE827197BAE616A1F7 /* Pods-myntra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myntra/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = product_list2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myntra.Myntra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C69137DB2C194B2F009AE51A /* Build configuration list for PBXProject "myntra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69137F22C194B32009AE51A /* Debug */,
+				C69137F32C194B32009AE51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69137F42C194B32009AE51A /* Build configuration list for PBXNativeTarget "myntra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69137F52C194B32009AE51A /* Debug */,
+				C69137F62C194B32009AE51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C69137D82C194B2F009AE51A /* Project object */;
+}

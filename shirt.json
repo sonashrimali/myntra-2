@@ -1,0 +1,51 @@
+
+{
+  "id": "1",
+  "name": "Men's Casual Shirt",
+  "brand": "puma",
+  "price": "1.3k",
+  "description": "A comfortable and stylish casual shirt for men.",
+  "sizes":["small","medium","large",]
+  "image": "shirt1"
+
+    }
+
+    {
+      "id": "2",
+      "name": "Men's Casual Shirt",
+      "brand": "FashionBrand",
+      "price": "1.2k"",
+      
+      "description": "A comfortable and stylish casual shirt for men.",
+      "sizes":["small","medium","large",]
+      "image": "shirt2"
+}
+{
+    "id": "3",
+    "name": "Men's formal Shirt",
+    "brand": "adidas",
+    "price": "2.1k",
+    "description": "A comfortable and stylish casual shirt for men.",
+    "sizes":["small","medium","large",]
+    "image": "shirt3"
+}
+{
+    "id": "4",
+    "name": "Men's  Shirt",
+    "brand": "comfy",
+    "price": "2.4k",
+    "description": "A comfortable and stylish casual shirt for men.",
+    "sizes":["small","medium","large",]
+    "image": "shirt4"
+    
+}
+{
+    "id": "5",
+    "name": "Men's  Shirt",
+    "brand": "zara",
+    "price": "2.1k",
+    "description": "A comfortable and stylish casual shirt for men.",
+    
+    "sizes":["small","medium","large",]
+    "image": "shirt5"
+}

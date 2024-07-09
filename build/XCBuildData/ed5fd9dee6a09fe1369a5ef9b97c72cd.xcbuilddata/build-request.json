@@ -1,0 +1,52 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9809e9415e007d388d8dabf3f96584c627"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9853e219d31d61c4b2ffff8c8fb2b8d263"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98743f3d9ac6f7e7e493592191d0f66745"
+    }
+  ],
+  "containerPath" : "/Users/fcp26/Desktop/myntra/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/fcp26/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/fcp26/Library/Developer/Xcode/DerivedData/Pods-gdtdjwmzcfggyifwwqefeiffirqs/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/fcp26/Library/Developer/Xcode/DerivedData/Pods-gdtdjwmzcfggyifwwqefeiffirqs/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
